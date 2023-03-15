@@ -1,13 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Signup form</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <div class="left">
+      <div class="logo">
+        <img src="./Assets/logo.png" alt="Odin-logo" />
+        <h1>ODIN</h1>
+      </div>
+    </div>
+    <div class="right">
+      <div class="text">
+        <p>
+          This is not a real online service! You know you need something like
+          this in your life to help you realize your dreams.
+        </p>
+        <br />
+        <p>You know you want to.</p>
+      </div>
+      <div class="center">
+        <h1>Lets' do this!</h1>
+        <br />
+        <form action="post">
+          <div class="input">
+            <label for="fName">First Name</label>
+            <input type="text" id="fName" name="First-name" />
+          </div>
+
+          <div class="input">
+            <label for="lName">Last Name</label>
+            <input type="text" id="lName" name="last-name" />
+          </div>
+
+          <div class="input">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" />
+          </div>
+
+          <div class="input">
+            <label for="phNum">Ph. Number</label>
+            <input type="tel" id="phNum" name="phone-number" />
+          </div>
+
+          <div class="input">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="Password" />
+          </div>
+          <div class="input">
+            <label for="confirmPassword">Confirm Password</label>
+            <input type="password" id="confirmPassword" name="confirm Password" />
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
 </html>
