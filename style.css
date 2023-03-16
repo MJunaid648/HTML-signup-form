@@ -40,35 +40,61 @@ body {
   height: 100vh;
 }
 .right .text {
-  padding: 15vh 10vh 5vh 5vh;
+  padding: 8vh 10vh 2vh 5vh;
 }
 .right p {
   font-weight: bold;
-  font-size: 1.4rem;
+  font-size: 3vh;
   text-align: justify;
 }
 .right .center {
   background-color: #fff;
-  padding: 5vh 10vh 5vh 5vh;
+  padding: 2vh 10vh 5vh 5vh;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+.right .center h1 {
+  font-size: 4.5vh;
 }
 
 .right form {
   display: flex;
   flex-direction: row;
-  flex-flow: row wrap;
+  flex-wrap: wrap;
+  /* flex-flow: row wrap; */
   gap: 20px;
 }
 .input {
   display: flex;
   flex-flow: column wrap;
-  width: 40%;
+  width: 350px;
+  border-radius: 25px;
   font-size: 0.8 rem;
   color: black;
   font-weight: 200;
   font-family: "Poppins";
-  text-transform: uppercase;
 }
 form input {
-  width: 15vw;
+  width: 24vw;
+  padding: 5px;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
 }
+.final {
+  padding: 3vh 10vh 2vh 5vh;
+}
+.final p{
+  font-size: 1.2rem;
+  margin-top: 8px;
+  font-weight: normal;
+}
+.final button {
+  width: 25vh;
+  background-color: #6e805f;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+}
+.login{color: #6e805f;}
+a{text-decoration: none;}
